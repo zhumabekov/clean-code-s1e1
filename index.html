@@ -23,10 +23,10 @@
     </header>
     <main class="todo">
       <section class="todo__add" id="topSectionForAddingElementToList">
-        <label class="todo__title" for="new-task">Add Item</label>
+        <label class="todo__title todo__title_new" for="new-task">Add Item</label>
         <div class="todo__form">
-          <input id="new-task" class="todo__input" type="text">
-          <button class="todo__button">Add</button>
+          <input id="new-task" class="task__input task__input_new" type="text">
+          <button class="button todo__button">Add</button>
         </div>
       </section>
       <h3 class="todo__title">Todo</h3>
@@ -35,18 +35,18 @@
           <input class="task__check" type="checkbox">
           <label class="task__label">Pay Bills</label>
           <input type="text" class="task__input">
-          <button class="task-edit">Edit</button>
-          <button class="task-delete">
-            <img src="./remove.svg">
+          <button class="button task-edit">Edit</button>
+          <button class="button task-delete">
+            <img class="button-img" src="./remove.svg">
           </button>
         </li>
         <li class="todo__item todo__item_active">
           <input class="task__check" type="checkbox">
           <label class="task__label">Go Shopping</label>
           <input  class="task__input" type="text" value="Go Shopping" class="task">
-          <button class="task-edit">Save</button>
-          <button class="task-delete">
-            <img src="./remove.svg">
+          <button class="button task-edit">Save</button>
+          <button class="button task-delete">
+            <img class="button-img" src="./remove.svg">
           </button>
         </li>
       </section>
@@ -56,9 +56,9 @@
           <input class="task__check" type="checkbox" checked>
           <label class="task__label">See the Doctor</label>
           <input type="task__input" class="task">
-          <button class="task-edit">Edit</button>
-          <button class="task-delete">
-            <img src="./remove.svg">
+          <button class="button task-edit">Edit</button>
+          <button class="button task-delete">
+            <img class="button-img" src="./remove.svg">
           </button>
         </li>
       </ul>
