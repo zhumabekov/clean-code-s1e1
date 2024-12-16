@@ -26,7 +26,7 @@
         <label class="todo__title todo__title_new" for="new-task">Add Item</label>
         <div class="todo__form">
           <input id="new-task" class="task__input task__input_new" type="text">
-          <button class="button todo__button">Add</button>
+          <button class="button todo__button" id="addBtn">Add</button>
         </div>
       </section>
       <h3 class="todo__title">Todo</h3>
@@ -51,11 +51,11 @@
         </li>
       </section>
       <h3 class="todo__title">Completed</h3>
-      <section class="todo__completed id="completed-tasks">
+      <section class="todo__completed" id="completedTasks">
         <li class="todo__item">
           <input class="task__check" type="checkbox" checked>
           <label class="task__label">See the Doctor</label>
-          <input type="task__input" class="task">
+          <input type="text" class="task__input">
           <button class="button task-edit">Edit</button>
           <button class="button task-delete">
             <img class="button-img" src="./remove.svg">

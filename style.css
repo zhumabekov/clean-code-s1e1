@@ -27,7 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.todo__input {
+.task__input, .task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -111,7 +111,7 @@ body {
 .todo__item > .task__check {
   margin: 0 10px;
 }
-.todo__item > .todo__title {
+.todo__item > .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -136,15 +136,15 @@ body {
 }
 
 /* Edit Task */
-.todo__list .todo__item .task__input {
+.todo__item .task__input {
   display: none;
 }
 
-.todo__list .todo__item_active .task__input {
+.todo__item_active .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.todo__list .todo__item_active .todo__title {
+.todo__item_active .task__label {
   display: none;
 }
